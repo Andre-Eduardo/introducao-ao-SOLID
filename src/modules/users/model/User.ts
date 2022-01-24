@@ -5,13 +5,13 @@ class User {
 
   name: string;
 
-  admin: boolean;
+  admin?: boolean;
 
   email: string;
 
   created_at: Date;
 
-  updated_at: Date;
+  updated_at?: Date;
 
   constructor() {
     if (!this.id) {
